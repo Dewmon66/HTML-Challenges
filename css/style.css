@@ -1,0 +1,95 @@
+:root {
+    --ash-gray: #b5c2b7ff;
+    --cool-gray: #8c93a8ff;
+    --english-violet: #62466bff;
+    --english-violet-2: #45364bff;
+    --raisin-black: #2d2327ff;
+    --bg-grey: rgb(189, 190, 194);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-gray);
+}
+
+@font-face {
+    font-family: "Aspekta";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/Aspekta-500.woff2) format("woff2");
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    justify-content: space-between;
+    /* background-color: var(--cool-gray); */
+}
+
+nav>p {
+    background-color: var(--ash-gray);
+    width: fit-content;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 12px;
+    font-family: "Aspekta";
+    display: inline;
+    color: var(--raisin-black);
+}
+
+nav>.buttons>p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav .buttons a {
+    text-decoration: none;
+    background-color: var(--ash-gray);
+    padding: 10px;
+    font-family: "Aspekta";
+    color: var(--raisin-black);
+    /* border-radius: 10px; */
+}
+
+nav .buttons a:active,
+nav .buttons a:hover {
+    text-decoration: underline;
+}
+
+nav .buttons {
+    margin-right: 20px;
+}
+
+button.underlined {
+    text-decoration: underline;
+}
+
+article>p {
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    width: 100vw;
+    font-family: "Aspekta";
+    font-size: 28px;
+}
+
+article>.images {
+    background-color: var(--ash-gray);
+    position: absolute;
+    top: 290px;
+    width: 100vw;
+}
+
+article .images>img {
+    width: 140px;
+    height: 120px;
+    margin: 5px 0px 5px 12px;
+}

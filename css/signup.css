@@ -1,0 +1,56 @@
+:root {
+    --ash-gray: #b5c2b7ff;
+    --cool-gray: #8c93a8ff;
+    --english-violet: #62466bff;
+    --english-violet-2: #45364bff;
+    --raisin-black: #2d2327ff;
+    --bg-grey: rgb(189, 190, 194);
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+}
+
+section {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section>form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section p {
+    font-family: "Aspekta";
+    text-align: center;
+    font-size: 24px;
+}
+
+section form>label {
+    margin-right: 8px;
+    font-family: "Aspekta";
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+section form>input {
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#submit-button {
+    font-family: "Aspekta";
+    text-align: center;
+    display: block;
+    margin-left: 80px;
+}
